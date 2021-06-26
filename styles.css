@@ -1,0 +1,124 @@
+#main {
+    display: flex;
+}
+div {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 10px;
+}
+
+img {
+    margin: 10px auto;
+    width: 80%;
+    margin-left: 20px;
+}
+
+#first-column {
+    display: flex; 
+    flex-direction: column; 
+    height: 700px; 
+    width: 33.3%;
+}
+
+#first-column h1{
+    max-width: 60%;
+    margin-top: 140px;
+    margin-left: 85px;
+}
+
+#second-column {
+    display: flex; 
+    flex-direction: column; 
+    height: 758px; 
+    width: 33.3%;
+}
+#second-column p {
+    margin-left: 10px;
+    line-height: 3px;
+}
+
+#third-column {
+    display: flex; 
+    flex-direction: column; 
+    height: 700px; 
+    width: 33.4%;
+}
+
+
+#second-column {
+    border-right: 13px solid;
+    border-left: 13px solid;
+    margin: 0 10px;
+}
+
+#first-column h1, #second-column h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tree-branch {
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.american-flag-container {
+    max-height: 260px;
+}
+
+.american-flag {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.contact-us{
+    max-height: 100px;
+    
+}
+
+.contact-us h1 {
+    margin-top: 22px;
+}
+
+.contact-info {
+    max-height: 110px;
+    max-height: 80px;
+}
+
+.vetsintech-logo {
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.silent-auction {
+    border-top: 13px solid black;
+    border-bottom: 13px solid black;
+    max-height: 4em;
+}
+
+.silent-auction h1 {
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.event {
+    width:60%;
+}
+
+.photos-on-table {
+    margin-top: 50px;
+    margin-left: 40px;
+}
